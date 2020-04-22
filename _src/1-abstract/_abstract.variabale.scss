@@ -1,0 +1,85 @@
+/*----------------------------------*\
+                #COLORS
+\*----------------------------------*/
+
+// Setting up color palette to design the theme from 1 location
+// Color Palette
+$color-primary: #26baa4;
+$color-primary-lt: lighten($color-primary, 5%);
+$color-primary-dk: darken($color-primary, 5%);
+
+
+$color-secondary: #6173ff;
+$color-secondary-lt: lighten($color-secondary, 5%);
+$color-secondary-dk: darken($color-secondary, 5%);
+
+$color-grey-lt: #9fabb2;
+$color-grey-dk: #4c545d;
+$color-white: #fff;
+
+/*REASSIGNING COLOR VARIABLES*/
+/*
+1. color for page text
+2. color for page background
+3. color for logo color
+4. color for links hover
+5. color for links active
+*/
+
+$color-page-text: $color-grey-lt;
+$color-page-heading: $color-grey-dk;
+$color-page-bg: $color-white;
+
+$color-links: inherit;
+$color-links-hover: $color-primary;
+
+$color-btn-1: $color-primary;
+$color-btn-1-hover: $color-primary-lt;
+
+$color-btn-2: $color-secondary;
+$color-btn-2-hover: $color-secondary-lt;
+
+$color-logo: $color-primary;
+$color-logo-hover: $color-primary-lt;
+
+
+
+/*------------------------------------*\
+                #FONTS
+\*------------------------------------*/
+
+/*-------GLOBAL--------*/
+/* Default Font Family */
+$font-family-global: 'Bai Jamjuree';
+
+/*-------GLOBAL--------*/
+/* Default Font Weights */
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+
+/*-------GLOBAL--------*/
+/* Default global font size */
+$global-font-size: 62.5%; // (10px/16px) for easier calculation of font size
+$font-size-default: 1.8rem; // 18px
+$font-size-small: 1.6rem; // 16px
+$font-size-tiny: 1.5rem; // 15px
+
+
+/*-------HEADING--------*/
+/* Default style for h1 to h6 */
+$font-size-h1: 4rem; // 40px
+$font-size-h2: 3.4rem; // 34px
+$font-size-h3: 2.6rem; // 26px
+$font-size-h4: 2.2rem; // 22px
+$font-size-h5: 1.8rem; // 18px
+$font-size-h6: 1.6rem; // 16px
+
+
+/*------------------------------------*\
+            #UNIT-SPACING
+\*------------------------------------*/
+/* Variables to use for margins */
+$u-s-tiny: 3rem;
+$u-s-small: 5rem;
+$u-s-large: 9rem;
+$u-s-huge: 20rem;
